@@ -1,0 +1,241 @@
+
+body{
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.active{
+    border-top: 1px solid #060606;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px 0px 40px;
+    border-bottom: solid 1px;
+}
+header h1{
+    font-size: 32px;
+    text-transform: uppercase;
+}
+header h2{
+    font-size: 20px;
+    text-indent: 32px;
+    margin-top: -22px;
+    margin-bottom: 0;
+    font-weight: 300;
+}
+.logo:hover{
+    color: #4E091E;
+    opacity: .6;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding-left: 0;
+}
+nav ul li{
+    padding: 20px;
+    font-size: 30px;
+    font-weight: 100;
+    display: inline-block;
+}
+nav ul li:first-child{
+    padding-left: 0; 
+}
+nav ul li:hover, a:hover{
+    transition: all .25s ease;
+    transform-origin: initial;
+    transform: scale(1.1);
+    color:#4E091E;
+    font-weight: bolder;
+}
+.icon{
+    display: flex;
+}
+.icon a{ 
+    float: right; 
+    padding: 10px;
+    font-size: 28px;
+}
+.icon a:hover{
+    transition: all .25s ease;
+    transform-origin: initial;
+    transform: scale(1.3);
+    color:#4E091E;
+    font-weight: bolder;
+}
+section{
+    background-color: #EAECE9;
+    background-image: url('../img/abstract3.png');
+    background-position-y: center;
+    min-height: 73vh;
+    background-repeat: no-repeat;
+}
+section div{
+    background: rgba(234,236,233,0.5);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+footer{
+    border-top: solid 1px;
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 100;
+    padding-left: 30px;
+}
+.manifesto{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    text-align: right;
+    margin-top: 11%;
+    margin-left: 23%;
+    margin-right: 9%;
+}
+.icon a p{
+margin-top: 9px;
+text-decoration: underline;
+display: inline-block;
+margin-right: 10px;
+}
+
+
+/* Works Page */
+
+.portfolio{
+    display: flex;
+    justify-content: center;
+}
+.portfolio a img{
+    width: 28vw;
+    height: 40vh;
+    -webkit-box-shadow: 9px 12px 26px -1px rgba(52, 67, 86, 0.52);
+-moz-box-shadow: 9px 12px 26px -1px rgba(52,67,86,0.52);
+box-shadow: 9px 12px 26px -1px rgba(52,67,86,0.52);
+border-radius: 0.4%;
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+.portfolio a img:hover{
+    background-color: rgba(52,67,86,0.76);
+    transform: scale(1.1);
+}
+main{
+    padding: 34px;
+}
+
+/* About Page */
+.about{
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-size: 30px;
+font-weight: 300;
+text-align: center;
+margin-top: 4%;
+margin-left: 18%;
+margin-right: 18%;
+line-height: 1.5;
+letter-spacing: 1px;
+}
+
+/* Skills Page */
+div ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding-left: 0;
+}
+div ul li{
+    padding: 10px;
+    font-weight: 100;
+    width: 18vw;
+    margin-top: 15px;
+}
+div ul li h4{
+    text-align: center;
+    margin-bottom: 0;
+}
+div ul li p{
+    font-size: 25px;
+}
+section .fab{
+    font-size: 2em;
+    margin: 0% auto;
+    color: #344356;
+}
+.tool{
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    margin:3%;
+    padding-left: 4%;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    margin-top: 0;
+}
+.fas{
+    padding: 0 10px 0 40px;
+    color: #344356;
+}
+
+/* On screens that are 992px or less */
+@media screen and (max-width: 992px) {
+    body {
+        font-size: 15px;
+    }
+    header {
+        justify-content: space-between;
+        padding: 0;
+        flex-direction: column;
+    }
+    nav ul li {
+        padding: 8px;
+        font-size: 22px;
+        font-weight: 100;
+    }
+    section div{
+        background: rgba(234,236,233,0.8)
+    }
+    .about {
+        font-size: 20px;
+        margin: 4%;
+        text-align: initial;
+    }
+    .icon a {
+        float: right;
+        padding: 10px;
+        font-size: 25px;
+    }
+    .portfolio{
+        flex-direction: column;
+    }
+    .portfolio a img {
+        width: 82vw;
+        height: auto;
+    }
+    div ul {
+        padding-left: 0;
+        flex-direction: column;
+    }
+    div ul li {
+        padding: 0;
+        font-weight: 100;
+        width: auto;
+        margin-top: 15px;
+    }
+    footer {
+        font-size: 15px;
+      }
+}
