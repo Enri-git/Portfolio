@@ -74,7 +74,7 @@ nav ul li:hover, a:hover{
     font-weight: bolder;
 }
 section{
-    background-color: ##ECEFE9;
+    background-color: #ECEFE9;
     background-image: url('../img/abstract3.png');
     background-position-y: center;
     min-height: 73vh;
