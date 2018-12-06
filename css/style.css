@@ -33,7 +33,7 @@ header h2{
     font-weight: 300;
 }
 .logo:hover{
-    color: #4E091E;
+    color: #E1131A;
     opacity: .6;
 }
 nav ul{
@@ -55,7 +55,7 @@ nav ul li:hover, a:hover{
     transition: all .25s ease;
     transform-origin: initial;
     transform: scale(1.1);
-    color:#4E091E;
+    color:#E1131A;
     font-weight: bolder;
 }
 .icon{
@@ -74,7 +74,7 @@ nav ul li:hover, a:hover{
     font-weight: bolder;
 }
 section{
-    background-color: #EAECE9;
+    background-color: ##ECEFE9;
     background-image: url('../img/abstract3.png');
     background-position-y: center;
     min-height: 73vh;
