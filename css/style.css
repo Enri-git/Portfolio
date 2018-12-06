@@ -120,10 +120,8 @@ margin-right: 10px;
 .portfolio a img{
     width: 28vw;
     height: 40vh;
-    -webkit-box-shadow: 9px 12px 26px -1px rgba(52, 67, 86, 0.52);
--moz-box-shadow: 9px 12px 26px -1px rgba(52,67,86,0.52);
-box-shadow: 9px 12px 26px -1px rgba(52,67,86,0.52);
-border-radius: 0.4%;
+    box-shadow: 9px 12px 26px -1px rgba(52,67,86,0.52);
+    border-radius: 0.4%;
     padding: 2%;
     display: flex;
     justify-content: space-between;
