@@ -122,9 +122,7 @@ margin-right: 10px;
     height: 40vh;
     box-shadow: 9px 12px 26px -1px rgba(52,67,86,0.52);
     border-radius: 0.4%;
-    padding: 2%;
-    display: flex;
-    justify-content: space-between;
+    padding: 10px;
 }
 .portfolio a img:hover{
     background-color: rgba(52,67,86,0.76);
