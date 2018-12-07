@@ -81,7 +81,7 @@ section{
     background-repeat: no-repeat;
 }
 section div{
-    background: rgba(234,236,233,0.5);
+    background: rgba(234,236,233,0.6);
     display: flex;
     align-items: center;
     flex-direction: column;
